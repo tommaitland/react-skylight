@@ -19,7 +19,7 @@ const styles = {
     top: '50%',
     left: '50%',
     marginTop: '-200px',
-    marginLeft: '-25%',
+    marginLeft: '0',
     backgroundColor: '#fff',
     borderRadius: '2px',
     zIndex: '100',
@@ -27,12 +27,12 @@ const styles = {
     boxShadow: '0px 0px 4px rgba(0,0,0,.14),0px 4px 8px rgba(0,0,0,.28)',
   },
   animationBase: {
-    transform: 'scale(0)',
+    transform: 'scale(0) translateX(-50%)',
     transitionProperty: 'transform',
     transitionTimingFunction: 'ease',
   },
   animationOpen: {
-    transform: 'scale(1)',
+    transform: 'scale(1) translateX(-50%)',
     transitionProperty: 'transform',
     transitionTimingFunction: 'ease',
   },
